@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Ubuntu:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ---------------------------navbar----------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#title"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ---------------------------title----------------------------- -->
+    <section id="title">
+      <div class="row name">
+        <div class="col-lg-6 heading-title">
+          <h1 class="name">Hello, It's Nikhil Kumar</h1>
+          <h3>
+            A programmer, Developer, Enthusiast<br />
+            Crazy about Dart
+          </h3>
+        </div>
+        <div class="col-lg-6 ml-auto prg-image">
+          <img
+            class="prg-img"
+            src="images/programmer-img.png"
+            alt="programmer-img"
+          />
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <!-- ---------------------------about----------------------------- -->
+    <hr />
+    <section id="about">
+          <div class="col-md-6 about-img">
+            <img class="about-img" src="images/about_image.png" alt="">
+          </div>
+          <div class="container col-md-6 content-about"></div>
+            <h2>About Me</h2>
+            <p class="content-para">
+             I am currently pursuing B.Tech from Delhi technological University(DTU).
+             live in delhi, born in hot summer of july. I
+              currently work as a college student looking 
+             for an oppurtinity to work with software companies. 
+             I mostly spend my time to learn and implement the mobile design and web design
+             As a software Engineering student, learned mostly about software developement life cycle concepts.
+             In my spare time i taught some students.
+               </p>
+            <h2 class="hobbies">Hobbies</h2>
+            <i class="icon fas fa-music fa-4x"></i>
+            <i class="icon fas fa-code fa-4x"></i>
+            <i class="icon fas fa-swimmer fa-4x"></i>
+            <i class="icon fas fa-gamepad fa-4x"></i>
+          </div>
+    </section>
+    <hr>
+    <!-- ---------------------------projects----------------------------- -->
+    <section id="project">
+      <h1 class="project-title">Projects</h1>
+      <div
+      id="project-carousel"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="project-heading">
+            Mobile Developement
+          </h2>
+          <img
+          class="skill-img"
+          src="images/mobile_dev_project.jpg"
+          alt="mobile-dev-image"
+        />
+        <p class="project-content">
+          MealDiet app for generating meal plan on the basis of calories and
+          meal type selected by user <br>and many more UI's to check more go to 
+          <a href="https://github.com/nikhil19rathore99?tab=repositories"><span class="github">github.io</span></a>
+        </p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="project-heading">
+             Web Developement
+          </h2>
+          <img
+            class="skill-img_2"
+            src="images/web_dev-project.png"
+            alt="web-dev-image"
+          />
+          <p class="project-content">
+            Create a portfolio website and Real Chat application using nodejs.<br>
+            to check more 
+            <a href="https://github.com/nikhil19rathore99?tab=repositories"><span class="github">github.io</span></a>
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="project-heading">
+             Database designing
+          </h2>
+          <img
+          class="skill-img"
+          src="images/database-desgining.png"
+          alt="project_dbms-image"
+        />
+        <p class="project-content">
+          Create a database for banking app which includes <br>normalization, E-R
+          modelling, design using mysql.
+        </p>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#project-carousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#project-carousel"
+        role="button"
+        data-slide="next"
+      >
+        <span aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </section>
+    <!-- ---------------------------contact----------------------------- -->
+    <hr>
+    <section id="Contact">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love pancakes as much as I do.</h3>
+        <p>
+          Love pancakes as much as I do? Let's talk about how awsome they are!<br>
+          We can code while eat pancakes.<br>
+          Yalla let's Do it!
+        </p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </section>
+    <footer id="footer">
+      <i class="fab fa-twitter footer-icon"></i>
+      <i class="fab fa-facebook footer-icon"></i>
+      <i class="fab fa-instagram footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+      <p class="footer-content">© Copyright 2020</p>
+    </footer>
+  </body>
+  <script>
+    $(document).ready(function(){
+      $('.nav-link').click(function(){
+        $('.navbar-collapse').removeClass('show');
+      });
+    });
+  </script>
+</html>

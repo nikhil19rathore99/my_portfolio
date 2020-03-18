@@ -1,0 +1,135 @@
+body{
+   font-family: "Montserrat";
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+    line-height: 2;
+}
+h3{
+    padding-top: 4%;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 3%;
+}
+.navbar{
+    width: 100vw;
+    padding: 2% 2% 1%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(64, 154, 154);
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+#title, #about, #project{
+    padding: 7% 15%;
+}
+.heading-title{
+    margin-top: 10%;
+}
+.name{
+    margin-top: 5%;
+}
+.prg-img{
+    width: 70%;
+    margin-left: 10%;
+}
+.icon{
+    margin: 0% 3% 0%;
+}
+.about-img{
+     width: 70%;
+    float: left; 
+}
+.content-about{
+    float: right; 
+    overflow: auto;
+}
+.hobbies{
+    padding-top: 5%;
+}
+#project{
+    text-align: center;
+}
+.project-heading{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.project-content{
+   margin-top: 20px;
+    text-align: center;
+}
+.skill-img{
+    padding-top: 20px;
+    width: 36%;
+}
+.skill-img_2{
+    width: 30%;
+}
+.project-title{
+    font-weight: bold;
+    padding-bottom: 5%;
+    line-height: 2;
+    font-size: 2.5rem;
+}
+#Contact{
+    padding: 5% 10% 0%;
+    text-align: center;
+}
+.btn{
+    background-color: #11999E; 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin: 40px;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .contact-me{
+      margin: 20px;
+      line-height: 2;
+  }
+#footer{
+    text-align: center;
+    color: black;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.footer-icon{
+    margin: 10px 10px 30px;
+}
+@media (max-width: 1426px){
+    #title{
+        text-align: center;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .icon{
+        width: 40px;
+        margin: 7%;
+    }
+}
